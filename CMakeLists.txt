@@ -12,7 +12,7 @@ endif()
 project ("SuperTrunfoInC")
 
 # Adicione a origem ao executável deste projeto.
-add_executable (SuperTrunfoInC "SuperTrunfoInC.cpp" "SuperTrunfoInC.h")
+add_executable (SuperTrunfoInC "super_trunfo.c")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET SuperTrunfoInC PROPERTY CXX_STANDARD 20)
